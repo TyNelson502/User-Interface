@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-}
+	}
 ol, ul {
 	list-style: none;
 }
@@ -64,3 +64,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 1100px;
+	margin: 0 auto;
+}
+.nav-bar{
+	margin: 1%;
+	padding: 1%;
+	font-weight: normal;
+	width: 100%;
+	background-color: none;
+}
+.navigation a{
+	color: grey;
+	text-decoration: none;
+	padding: 20px 10px 20px 40px;
+	font-size: 1.4rem;
+}
+.navigation img{
+	float: right;
+	padding-right: 5%;
+}
+
+.header{
+	display: inline-block;
+	padding: 30px 0px 40px;
+	width:49%;
+	text-align: center;
+	}
+.header h1{
+	font-size: 50pt;
+	padding: 50px 50px; 
+  }
+.header button{ 
+	padding:5px 45px 5px;
+	border:1px solid black;
+	vertical-align: text-bottom;
+	font-family: "Titillium Web";
+	background-color: white;
+}
+.bigCircle-img{
+	display: inline-block;
+}
+.bigCircle{
+	padding: 20px;
+	width: 120%;
+	display: inline-block;
+	}
+
+.summaries-top{
+	border-top: dotted 2px black;
+	padding:30px 0px 30px;
+	margin-top: 20px;
+}
+.summaries-top .Features{
+	display: inline-block;
+	width: 49%;
+	margin-right: 5px;
+}
+
+.summaries-top .About{
+	display: inline-block;
+	width: 49%;
+}
+.middle-img{
+	display:block;
+	width:100%;
+	margin-bottom:30px;
+}
+.wrapper{
+	border-bottom: dotted 2px black;
+	padding:20px 0px 30px;
+	margin-bottom: 20px;
+	display: grid;
+	grid-template-columns:350px 350px 350px;
+}
+.summaries .Services{
+	display: inline-block;
+	width: 270px;
+	margin-right: 29px;
+}
+.summaries .Product{
+	display: inline-block;
+	width: 270px;
+	margin-right:29px;
+}
+.summaries .Vision{
+	display: inline-block;
+	width: 270px;
+}
+footer{
+	margin: 40px 0;
+	padding-bottom: 40px;
+}
+.copyright{
+	text-align: center;
+}
